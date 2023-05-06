@@ -2,4 +2,8 @@
 /shelf/
 /workspace.xml
 
+### IntelliJ IDEA ###
 out/*
+.idea
+*.iml
+
