@@ -1,7 +1,5 @@
-package AlgorithmCodingTest.Question_1_10;
+package AlgorithmBook.Question_1_10;
 
-import java.util.Arrays;
-import java.util.OptionalInt;
 import java.util.Scanner;
 
 /**
