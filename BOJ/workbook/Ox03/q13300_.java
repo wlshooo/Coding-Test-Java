@@ -5,6 +5,7 @@ import java.io.IOException;
 import java.io.InputStreamReader;
 import java.util.StringTokenizer;
 
+//방 배정
 public class q13300_ {
     public static void main(String[] args) throws NumberFormatException, IOException {
         BufferedReader in = new BufferedReader(new InputStreamReader(System.in));

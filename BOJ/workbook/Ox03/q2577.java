@@ -2,6 +2,7 @@ package BOJ.workbook.Ox03;
 
 import java.util.Scanner;
 
+//숫자의 개수
 public class q2577 {
     public static void main(String[] args) {
 

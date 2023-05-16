@@ -2,6 +2,7 @@ package BOJ.workbook.Ox03;
 
 import java.util.Scanner;
 
+//방 번호
 public class q1475_ {
     public static void main(String[] args) {
         Scanner scan = new Scanner(System.in);
