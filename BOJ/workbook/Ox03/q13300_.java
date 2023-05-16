@@ -1,13 +1,11 @@
 package BOJ.workbook.Ox03;
 
-import jdk.nashorn.internal.parser.Parser;
-
 import java.io.BufferedReader;
 import java.io.IOException;
 import java.io.InputStreamReader;
 import java.util.StringTokenizer;
 
-public class q13300 {
+public class q13300_ {
     public static void main(String[] args) throws NumberFormatException, IOException {
         BufferedReader in = new BufferedReader(new InputStreamReader(System.in));
         StringTokenizer st = new StringTokenizer(in.readLine());
