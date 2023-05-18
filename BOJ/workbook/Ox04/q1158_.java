@@ -34,7 +34,7 @@ package BOJ.workbook.Ox04;
 //}
 import java.util.*;
 
-
+//요세푸스
 public class q1158_ {
 
     public static void main(String[] args) {
