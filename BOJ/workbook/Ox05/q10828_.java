@@ -5,7 +5,7 @@ import java.util.Stack;
 import java.util.StringTokenizer;
 
 //스택
-public class q10828 {
+public class q10828_ {
     public static void main(String[] args) throws IOException {
         BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
         BufferedWriter bw = new BufferedWriter(new OutputStreamWriter(System.out));
