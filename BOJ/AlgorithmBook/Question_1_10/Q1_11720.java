@@ -1,4 +1,4 @@
-package AlgorithmBook.Question_1_10;
+package BOJ.AlgorithmBook.Question_1_10;
 
 import java.util.Scanner;
 
@@ -7,7 +7,7 @@ import java.util.Scanner;
  *
  * N개의 숫자가 공백 없이 써 있다. 이숫자를 모두 합해 출력하는 프로그램을 작성하시오.
  */
-public class Q1 {
+public class Q1_11720 {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
         int length = sc.nextInt();

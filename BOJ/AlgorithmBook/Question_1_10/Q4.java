@@ -1,4 +1,4 @@
-package AlgorithmBook.Question_1_10;
+package BOJ.AlgorithmBook.Question_1_10;
 
 /**
  * 구간 합 구하기2

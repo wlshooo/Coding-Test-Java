@@ -1,4 +1,4 @@
-package AlgorithmBook.Question_1_10;
+package BOJ.AlgorithmBook.Question_1_10;
 
 import java.util.Scanner;
 
@@ -14,7 +14,7 @@ import java.util.Scanner;
  * 주어진다. 해당 값은 100보다 작거나 같은 , 음이 아닌 정수이고, 적어도 1개의 값은 0보다 크다.
  */
 
-public class Q2 {
+public class Q2_1546 {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
 
