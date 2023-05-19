@@ -3,7 +3,7 @@ package BOJ.workbook.Ox05;
 import java.io.*;
 import java.util.Stack;
 
-
+//제로
 public class q10773 {
     public static void main(String[] args) throws IOException {
         BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
