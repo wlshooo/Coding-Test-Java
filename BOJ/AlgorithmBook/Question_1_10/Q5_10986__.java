@@ -18,7 +18,7 @@ public class Q5_10986__ {
         }
         for (int i = 0; i < N; i++) {
             int remainder = (int) (S[i]%M);
-            //0~i까지의 구간 합 자ㅔㅊ가 0일 때 정답에 더하기
+            // ~ i까지의 구간 합 자ㅔㅊ가 0일 때 정답에 더하기
             if(remainder==0) answer++;
             //나머지가 같은 인덱스의 개수 카운팅 하기
             C[remainder]++;
