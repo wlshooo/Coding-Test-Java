@@ -6,7 +6,7 @@ import java.io.InputStreamReader;
 import java.util.StringTokenizer;
 
 //슬라이딩 윈도우 - DNA 비밀번호
-public class Q9_12891_ {
+public class Q9_12891__ {
     static int checkArr[];
     static int myArr[];
     static int checkSecret;
