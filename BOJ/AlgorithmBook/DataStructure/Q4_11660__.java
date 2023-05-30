@@ -1,4 +1,4 @@
-package BOJ.AlgorithmBook.Question_1_10;
+package BOJ.AlgorithmBook.DataStructure;
 
 import java.io.BufferedReader;
 import java.io.IOException;

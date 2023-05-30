@@ -1,4 +1,4 @@
-package BOJ.AlgorithmBook.Question_11_20;
+package BOJ.AlgorithmBook.DataStructure;
 
 import java.io.*;
 import java.util.Stack;
