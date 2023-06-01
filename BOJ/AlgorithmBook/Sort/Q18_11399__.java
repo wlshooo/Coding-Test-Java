@@ -3,7 +3,7 @@ package BOJ.AlgorithmBook.Sort;
 import java.io.BufferedReader;
 import java.io.IOException;
 import java.io.InputStreamReader;
-//ATM 인출 시간 계산하기 - 삽입정렬(집중 못함)
+//ATM 인출 시간 계산하기 - 삽입정렬
 public class Q18_11399__ {
     public static void main(String[] args) throws IOException {
         BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
