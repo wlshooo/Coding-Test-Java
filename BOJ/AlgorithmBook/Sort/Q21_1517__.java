@@ -1,57 +1,60 @@
 package BOJ.AlgorithmBook.Sort;
 
-import java.io.*;
+import java.io.BufferedReader;
+import java.io.IOException;
+import java.io.InputStreamReader;
+import java.util.StringTokenizer;
 
-//수 정렬하기 2 병합정렬
-public class Q20_2751__ {
-    public static int[] A, tmp;
+//버블 소트 프로그램2
+public class Q21_1517__ {
     public static long result;
+    public static int[] A, temp;
     public static void main(String[] args) throws IOException {
         BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
-        BufferedWriter bw = new BufferedWriter(new OutputStreamWriter(System.out));
         int N = Integer.parseInt(br.readLine());
         A = new int[N+1];
-        tmp = new int[N+1];
+        temp = new int[N+1];
+        StringTokenizer st = new StringTokenizer(br.readLine());
         for (int i = 1; i <= N; i++) {
-            A[i] = Integer.parseInt(br.readLine());
+            A[i] = Integer.parseInt(st.nextToken());
         }
-        merget_sort(1, N);
-        for (int i = 1; i <= N; i++) {
-            bw.write(A[i]+"\n");
-        }
-        bw.flush();
-        bw.close();
+        result = 0;
+        merget_sort(1,N);
+        System.out.println(result);
     }
+
     private static void merget_sort(int s, int e) {
-        if(e-s <1) return ;
+        if(e-s <1)
+            return;
         int m = s+(e-s)/2;
 
         merget_sort(s,m);
         merget_sort(m+1,e);
         for (int i = s; i <= e; i++) {
-            tmp[i] =A[i];
+            temp[i] = A[i];
         }
         int k=s;
         int index1=s;
         int index2=m+1;
         while (index1 <= m && index2 <= e) {
-            if (tmp[index1] > tmp[index2]) {
-                A[k]=tmp[index2];
+            if(temp[index1]> temp[index2]){
+                A[k]=temp[index2];
+                result = result+index2-k;
                 k++;
                 index2++;
             }else{
-                A[k]=tmp[index1];
+                A[k] =temp[index1];
                 k++;
                 index1++;
             }
         }
         while (index1 <= m) {
-            A[k]=tmp[index1];
+            A[k]=temp[index1];
             k++;
             index1++;
         }
         while (index2 <= e) {
-            A[k]=tmp[index2];
+            A[k]=temp[index2];
             k++;
             index2++;
         }
