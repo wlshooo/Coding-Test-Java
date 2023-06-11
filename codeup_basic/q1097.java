@@ -1,6 +1,5 @@
 package codeup_basic;
 
-import jdk.nashorn.internal.ir.IdentNode;
 
 import java.util.Scanner;
 
