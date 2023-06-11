@@ -8,6 +8,7 @@ public class AES {
     public static void main(String[] args) throws Exception {
 
         String plainText = "Hello World";
+        System.out.println("plainText : " + plainText);
         String encrypt = encrypt(plainText);
         System.out.println("AES 암호화 : " + encrypt);
 

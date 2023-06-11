@@ -13,9 +13,10 @@ public class DES {
     public static void main(String[] args) {
         DES desUtil = new DES();
 
-        String planText = "Hello World";
+        String plainText = "Hello World";
+        System.out.println("plainText : " + plainText);
 
-        String encrtpt = desUtil.encrypt(planText);
+        String encrtpt = desUtil.encrypt(plainText);
         String decrypt = decrypt(encrtpt);
 
         System.out.println("DES 암호화 : " + encrtpt);
