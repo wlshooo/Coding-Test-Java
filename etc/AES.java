@@ -4,10 +4,10 @@ import javax.crypto.Cipher;
 import javax.crypto.spec.SecretKeySpec;
 
 public class AES {
-    static String key = "2018305058 leejinho";
+    static String key = "qwertyuiqwertyui";
     public static void main(String[] args) throws Exception {
 
-        String plainText = "Hello World";
+        String plainText = "2018305058 leejinho";
         System.out.println("plainText : " + plainText);
         String encrypt = encrypt(plainText);
         System.out.println("AES 암호화 : " + encrypt);
