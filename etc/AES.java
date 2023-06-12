@@ -4,7 +4,7 @@ import javax.crypto.Cipher;
 import javax.crypto.spec.SecretKeySpec;
 
 public class AES {
-    static String key = "1234567812345678";
+    static String key = "2018305058 leejinho";
     public static void main(String[] args) throws Exception {
 
         String plainText = "Hello World";

@@ -13,7 +13,7 @@ public class DES {
     public static void main(String[] args) {
         DES desUtil = new DES();
 
-        String plainText = "Hello World";
+        String plainText = "2018305058 leejinho";
         System.out.println("plainText : " + plainText);
 
         String encrtpt = desUtil.encrypt(plainText);
@@ -42,7 +42,7 @@ public class DES {
     public static String encrypt(String message) {
         StringBuffer sb = null;
         try {
-            Cipher cipher = Cipher.getInstance("TripleDES/ECB/PKCS5Padding");
+            Cipher cipher = Cipher.getInstance("DESede/ECB/PKCS5Padding");
             cipher.init(Cipher.ENCRYPT_MODE, key);
             byte[] plaintext = message.getBytes("UTF8");
             byte[] ciphertext = cipher.doFinal(plaintext);
@@ -62,7 +62,7 @@ public class DES {
         String text = null;
         try {
             byte[] b = new byte[message.length() / 2];
-            Cipher cipher = Cipher.getInstance("TripleDES/ECB/PKCS5Padding");
+            Cipher cipher = Cipher.getInstance("DESede/ECB/PKCS5Padding");
             cipher.init(Cipher.DECRYPT_MODE, key);
             for (int i = 0; i < b.length; i++) {
                 b[i] = (byte) Integer.parseInt(message.substring(2 * i, 2 * i + 2), 16);
