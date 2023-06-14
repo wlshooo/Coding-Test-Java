@@ -1,4 +1,4 @@
-package AlgorithmBook.codeup_basic;
+package BOJ.AlgorithmBook.codeup_basic;
 
 import java.util.Scanner;
 

@@ -1,4 +1,4 @@
-package AlgorithmBook.codeup_basic;
+package BOJ.AlgorithmBook.codeup_basic;
 
 public class q1004 {
     public static void main(String[] args) {
