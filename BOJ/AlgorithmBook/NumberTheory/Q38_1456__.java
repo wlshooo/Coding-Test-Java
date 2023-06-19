@@ -6,7 +6,7 @@ import java.io.IOException;
 import java.io.InputStreamReader;
 import java.util.StringTokenizer;
 
-//나머지 합 구하기 - 거의 소수  
+//나머지 합 구하기 - 거의 소수
 public class Q38_1456__ {
     public static int solution(long a, long b) {
         // 에라토스테네스의 체
