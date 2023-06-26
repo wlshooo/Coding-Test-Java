@@ -7,7 +7,7 @@ import java.util.Queue;
 import java.util.StringTokenizer;
 
 //효율적으로 해킹하기
-public class Q47_1325 {
+public class Q47_1325_ {
     static int N, M;
     static boolean visited[];
     static int answer[];
