@@ -3,7 +3,7 @@ package BOJ.AlgorithmBook.Tree;
 import java.util.ArrayList;
 import java.util.Scanner;
 
-//리프 노드의 개수 구하기
+//리프 노드의 개수 구하기 + 책에 69,70 문제 누락 p400 -> 바로 417
 public class Q68_1068_ {
     static ArrayList<Integer>[] tree;
     static boolean[] visited;
