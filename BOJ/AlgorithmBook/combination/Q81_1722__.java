@@ -5,7 +5,7 @@ import java.util.Arrays;
 import java.util.Scanner;
 
 //순열의 순서
-public class Q81_1722 {
+public class Q81_1722__ {
     public static void main(String[] args) {
         Scanner scan = new Scanner(System.in);
         long[] f = new long[21];
